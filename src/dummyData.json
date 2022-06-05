@@ -1,0 +1,70 @@
+{
+  "createdAt": "2022-06-01T22:21:38Z",
+  "id": "7CA7722B-2429-4F85-9780-DF8CFFCECE1E",
+  "name": "Tahoe Rim Trail",
+  "baseWeight": "2.653 lb",
+  "totalWeight": "3.028 lb",
+  "totalPrice": "$623.47",
+  "packItems": [
+    {
+      "gear": {
+        "id": "7FFB8423-0546-4C96-942B-27C83D1807D3",
+        "category": "Navigation",
+        "desc": "Garmin InReach Mini 2",
+        "name": "Safety Beacon",
+        "price": "$400.00",
+        "weight": "3.5 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "C81D770D-D1D4-42C3-80FB-06A3EDCF84A7",
+        "category": "Clothing",
+        "desc": "Patagonia Terrebonne",
+        "name": "Joggers",
+        "price": "$89.99",
+        "weight": "6 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "BBC16CBC-81E8-4C5A-859E-DC1BC26CCCA2",
+        "category": "Equipment",
+        "desc": "MSR Mini Ground Hog",
+        "name": "Tent Stakes",
+        "price": "$3.50",
+        "weight": "0.35 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "CA3A554D-E6A3-44B5-A31F-B219363A0BFB",
+        "category": "Clothing",
+        "desc": "Patagonia Nine Trails",
+        "name": "Shorts",
+        "price": "$59.99",
+        "weight": "6 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": false
+    },
+    {
+      "gear": {
+        "id": "F99941BD-16A7-403B-9C59-3A8D31E22C2B",
+        "category": "Equipment",
+        "desc": "BearVault 450",
+        "name": "Bear Canister",
+        "price": "$69.99",
+        "weight": "32.6 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    }
+  ]
+}
