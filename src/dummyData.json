@@ -1,18 +1,90 @@
 {
-  "createdAt": "2022-06-01T22:21:38Z",
-  "id": "7CA7722B-2429-4F85-9780-DF8CFFCECE1E",
-  "name": "Tahoe Rim Trail",
-  "baseWeight": "2.653 lb",
-  "totalWeight": "3.028 lb",
-  "totalPrice": "$623.47",
+  "createdAt": "2022-06-06T04:40:08Z",
+  "id": "ADAABA2C-06E1-4731-9792-0AEE0A36BD92",
+  "name": "Tahoe Rim Trail 22",
+  "baseWeight": "14.372 lb",
+  "totalWeight": "17.708 lb",
+  "totalPrice": "$2,848.49",
   "packItems": [
     {
       "gear": {
-        "id": "7FFB8423-0546-4C96-942B-27C83D1807D3",
-        "category": "Navigation",
-        "desc": "Garmin InReach Mini 2",
-        "name": "Safety Beacon",
-        "price": "$400.00",
+        "id": "2A0D45E6-4B34-447A-992A-D7693FE20244",
+        "category": "Cook System",
+        "desc": "Bic Mini",
+        "name": "Lighter ",
+        "price": "$1.00",
+        "weight": "0.39 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "6971C040-3C24-4791-9D36-C6A0F3CE114B",
+        "category": "Big Four",
+        "desc": "Gossamer Gear The One ",
+        "name": "Tent",
+        "price": "$249.99",
+        "weight": "22 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "8CF5B262-1282-447D-A840-261FA495B2D6",
+        "category": "Equipment",
+        "desc": "MSR Mini groundhog",
+        "name": "Tent Stakes",
+        "price": "$3.50",
+        "weight": "0.35 oz"
+      },
+      "quantity": 4,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "9CB52D26-F43A-4645-AAA2-8236EBD9E790",
+        "category": "Hiking Clothes",
+        "desc": "Patagonia Ballcap ",
+        "name": "Hat",
+        "price": "$29.99",
+        "weight": "3.24 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": false
+    },
+    {
+      "gear": {
+        "id": "366C7E6F-2D96-4660-AE07-66E8F7A7835F",
+        "category": "Equipment",
+        "desc": "Foxelli ",
+        "name": "Headlamp",
+        "price": "$19.99",
+        "weight": "2.4 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "4B25387D-7646-45C1-BE8C-D9C17E921577",
+        "category": "Cook System",
+        "desc": "Toaks 550ML UL",
+        "name": "Pot",
+        "price": "$29.95",
+        "weight": "2.6 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "4302A889-9975-42F1-9A9F-3E5182E50806",
+        "category": "Electronics",
+        "desc": "InReach Mini 2",
+        "name": "Beacon",
+        "price": "$399.99",
         "weight": "3.5 oz"
       },
       "quantity": 1,
@@ -20,9 +92,165 @@
     },
     {
       "gear": {
-        "id": "C81D770D-D1D4-42C3-80FB-06A3EDCF84A7",
+        "id": "6A54DF01-F0A0-4390-97C9-3DA01EDBF365",
+        "category": "Equipment",
+        "desc": "Hyperlite Pod",
+        "name": "Pack Pod",
+        "price": "$60.00",
+        "weight": "1.3 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "39FEE0E0-BBA0-42F6-905F-C224E25089B7",
+        "category": "Equipment",
+        "desc": "Sawyer Squeeze ",
+        "name": "Water Filter",
+        "price": "$34.99",
+        "weight": "3 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "DF1F39A3-B429-459E-8167-9AD4A99E30C9",
+        "category": "Electronics",
+        "desc": "Garmin Forerunner 945",
+        "name": "Watch ",
+        "price": "$599.99",
+        "weight": "1.8 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "B6F9FA87-75E1-4CD8-A064-DE87AD2370F5",
+        "category": "Equipment",
+        "desc": "Sea To Summit 20L",
+        "name": "Dry Bag ",
+        "price": "$27.95",
+        "weight": "4.7 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "D8A11E39-C9C3-4DE1-AB44-29283F2DC7E8",
+        "category": "Equipment",
+        "desc": "Black Diamond Trail Back",
+        "name": "Trekking Poles",
+        "price": "$79.99",
+        "weight": "17.6 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "72F1A226-9281-4E2F-96B4-CA849BFB64A1",
+        "category": "Equipment",
+        "desc": "BearVault 450",
+        "name": "Bear Canister",
+        "price": "$69.99",
+        "weight": "33.6 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "5C1B58F5-363F-4E4A-848A-B329C47693E8",
+        "category": "Electronics",
+        "desc": "Anker 10000mAh",
+        "name": "Power Bank ",
+        "price": "$39.99",
+        "weight": "7.5 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "39C3ADDD-D4D9-4ED8-A602-050E33A9FB41",
+        "category": "Equipment",
+        "desc": "Sea To Summit 4L",
+        "name": "Dry Bag",
+        "price": "$19.95",
+        "weight": "2.1 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "0D5C7E92-5F25-47B4-9CF1-08ED871EE24E",
+        "category": "Equipment",
+        "desc": "Gossamer Gear Polycro ",
+        "name": "Tent Footprint ",
+        "price": "$11.00",
+        "weight": "3.65 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "F498E015-16F0-4F94-B03B-4BD0D06D198A",
+        "category": "Big Four",
+        "desc": "Hyperlite Southwest 2400",
+        "name": "Pack",
+        "price": "$249.99",
+        "weight": "32.3 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "7958CA5D-4ACF-48AD-A9CE-128AD5AC92EB",
+        "category": "Hiking Clothes",
+        "desc": "Patagonia Quandary",
+        "name": "Pants",
+        "price": "$79.99",
+        "weight": "10 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": false
+    },
+    {
+      "gear": {
+        "id": "5FCC188E-3F25-4ED8-9556-6A8EC7A4E837",
+        "category": "Cook System",
+        "desc": "Sea To Summit X Mug",
+        "name": "Mug",
+        "price": "$14.95",
+        "weight": "2.5 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "F43BCE4E-8E88-4D0A-8DF6-FF6372796EA7",
+        "category": "Equipment",
+        "desc": "Black Diamon Moji ",
+        "name": "Lantern",
+        "price": "$24.99",
+        "weight": "3 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "721D014A-D81A-44B5-816B-06DC7C801B5E",
         "category": "Clothing",
-        "desc": "Patagonia Terrebonne",
+        "desc": "Patagonia Terrebonne ",
         "name": "Joggers",
         "price": "$89.99",
         "weight": "6 oz"
@@ -32,36 +260,144 @@
     },
     {
       "gear": {
-        "id": "BBC16CBC-81E8-4C5A-859E-DC1BC26CCCA2",
-        "category": "Equipment",
-        "desc": "MSR Mini Ground Hog",
-        "name": "Tent Stakes",
-        "price": "$3.50",
-        "weight": "0.35 oz"
-      },
-      "quantity": 1,
-      "inBaseWeight": true
-    },
-    {
-      "gear": {
-        "id": "CA3A554D-E6A3-44B5-A31F-B219363A0BFB",
-        "category": "Clothing",
-        "desc": "Patagonia Nine Trails",
-        "name": "Shorts",
-        "price": "$59.99",
-        "weight": "6 oz"
+        "id": "624FBFF6-B10C-49A4-99F8-C98AA3F71FCA",
+        "category": "Hiking Clothes",
+        "desc": "Altra Lone Peak 6",
+        "name": "Trail Running Shoes",
+        "price": "$140.00",
+        "weight": "10.6 oz"
       },
       "quantity": 1,
       "inBaseWeight": false
     },
     {
       "gear": {
-        "id": "F99941BD-16A7-403B-9C59-3A8D31E22C2B",
+        "id": "664B9F70-7849-4F8A-BFAE-3B22FBB219C5",
+        "category": "Toiletries",
+        "desc": "The Deuce 2",
+        "name": "Trowel",
+        "price": "$19.95",
+        "weight": "0.65 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "FFBEBFEE-FD1E-48FD-8F74-AB9200EFFD29",
         "category": "Equipment",
-        "desc": "BearVault 450",
-        "name": "Bear Canister",
-        "price": "$69.99",
-        "weight": "32.6 oz"
+        "desc": "Cnoc 2 Liter",
+        "name": "Water Bladder",
+        "price": "$22.99",
+        "weight": "2.6 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "820C5B77-848E-48E0-9D28-BFC4C70E55CC",
+        "category": "Cook System",
+        "desc": "BRS 300T",
+        "name": "Stove",
+        "price": "$16.95",
+        "weight": "0.88 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "6FE08DB3-B575-4CCF-80CE-020408661539",
+        "category": "Big Four",
+        "desc": "Teton Sports Trail ",
+        "name": "Sleeping Bag",
+        "price": "$49.99",
+        "weight": "46.4 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "5FAA308F-6548-4CDA-AFF2-C32B83D86ACB",
+        "category": "Clothing",
+        "desc": "Uniqlo Ultra Light Down",
+        "name": "Down Jacket",
+        "price": "$79.99",
+        "weight": "8.3 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": false
+    },
+    {
+      "gear": {
+        "id": "0FCF0CE5-CBAE-4A22-86D9-1F121E53F6D1",
+        "category": "Toiletries",
+        "desc": "Assorted Toiletries ",
+        "name": "Toiletries",
+        "price": "$0.00",
+        "weight": "5.69 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "6F8B028A-0321-4304-B945-BBD5FAC9C1E7",
+        "category": "Hiking Clothes",
+        "desc": "Uniqlo UL Parka",
+        "name": "Windshell ",
+        "price": "$29.99",
+        "weight": "11 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": false
+    },
+    {
+      "gear": {
+        "id": "313E14C8-847C-4DDC-96FA-AB4630909D71",
+        "category": "Big Four",
+        "desc": "Therma Rest Neo Air X Lite Reg",
+        "name": "Sleeping Pad",
+        "price": "$199.99",
+        "weight": "12 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "D0C4BEBB-C7A0-41E0-ABD8-9F1E280C8DEB",
+        "category": "Hiking Clothes",
+        "desc": "The North Face Wander",
+        "name": "Sun Hoodie",
+        "price": "$89.99",
+        "weight": "10.23 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": false
+    },
+    {
+      "gear": {
+        "id": "C5F89FF8-5606-460E-9ED8-964C5A69B073",
+        "category": "Toiletries",
+        "desc": "Bens Deet ",
+        "name": "Mosquito Repellent ",
+        "price": "$9.99",
+        "weight": "1.6 oz"
+      },
+      "quantity": 1,
+      "inBaseWeight": true
+    },
+    {
+      "gear": {
+        "id": "5152BE16-41D4-4479-8E35-9F6C5A04B322",
+        "category": "Clothing",
+        "desc": "Frogg Toggs Ultra Lite 2",
+        "name": "Rain Jacket",
+        "price": "$39.99",
+        "weight": "8.8 oz"
       },
       "quantity": 1,
       "inBaseWeight": true

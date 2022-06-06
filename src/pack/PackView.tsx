@@ -1,5 +1,4 @@
 import {Pack} from "./Pack";
-import {Component} from "react";
 import {Paper, Typography} from "@mui/material";
 import PackChart from "./PackChart";
 import PackTable from "./PackTable";

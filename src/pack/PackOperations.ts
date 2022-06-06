@@ -3,14 +3,14 @@ import {PackItem} from "./Pack";
 export function totalPrice(items : PackItem[]) : string {
     const currencySymbol = items.at(0)?.gear.price.charAt(0)
     const values = items.map( item => Number(item.gear.price.replace(item.gear.price.charAt(0),' ')))
-    const total = values.reduce((partialResult, currentValue) => partialResult + currentValue, 0)
-    return currencySymbol + total.toString()
+    const total = values.reduce((partialResult, currentValue) => partialResult + currentValue, 0).toFixed(2)
+    return currencySymbol + total
 }
 
 export function totalWeight(items: PackItem[]) : string {
     const unitType = items.at(0)?.gear.weight.split(" ")[1]
     const values = items.map( item => Number(item.gear.weight.split(" ")[0]))
-    const total = values.reduce((partialResult, currentValue) => partialResult + currentValue, 0).toString()
+    const total = values.reduce((partialResult, currentValue) => partialResult + currentValue, 0).toFixed(4)
     return total + ' ' +  unitType
 }
 
