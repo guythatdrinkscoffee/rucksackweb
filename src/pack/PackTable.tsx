@@ -86,13 +86,18 @@ const PackTable = ({ pack } : PackProps ) => {
                                     </StyledTableRow>
                                 </TableBody>
                             ))
+
                         }
-                        <TableRow>
-                            <TableCell colSpan={3} >
-                                <Typography variant={"body1"} sx={{ alignItems: 'center' ,display: 'flex', color:'gray'}}><BackpackIcon fontSize={"small"}/> = Base Weight </Typography>
-                            </TableCell>
-                        </TableRow>
+                        <TableHead>
+                            <TableRow>
+                                <TableCell colSpan={3} >
+                                    <Typography variant={"body1"} sx={{ alignItems: 'center' ,display: 'flex', color:'gray'}}><BackpackIcon fontSize={"small"}/> = In Base Weight </Typography>
+                                </TableCell>
+                            </TableRow>
+                        </TableHead>
+
                     </Table>
+
                 </TableContainer>
             </Grid>
         </Grid>

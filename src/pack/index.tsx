@@ -1,15 +1,28 @@
 import { usePack } from "./PackAPI";
 import {Pack} from "./Pack";
 import PackView from "./PackView";
-import packData from "../dummyData.json"
+import {CircularProgress} from "@mui/material";
 export function Index(){
-    // const { data, isLoading } = usePack()
+    const { data, isLoading, isError } = usePack()
 
-    const pack = packData as Pack
-    // if(isLoading) return <p> Loading pack link... </p>
+    if(isError){
+       return( <ul>
+            <li> { isError.name }</li>
+            <li> { isError.message }</li>
+        </ul> )
+    }
+
+    if(isLoading){
+        return (
+            <CircularProgress color={"inherit"}/>
+        )
+    }
+
+    const pack = data as Pack
 
     return (
-        <PackView pack={pack}/>
+        <PackView pack={pack} />
     )
+
 }
 

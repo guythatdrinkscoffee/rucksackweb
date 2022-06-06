@@ -5,7 +5,12 @@ import {Pack} from "./Pack";
 const fetcher = async(url:string) => {
     const response = await fetch(url)
 
-    return response.json()
+    if(!response.ok){
+        const error = new Error("Failed to get data.")
+        throw error
+    } else {
+        return response.json()
+    }
 }
 
 export function usePack() {
@@ -17,12 +22,17 @@ export function usePack() {
         `http://localhost:8080/api/v1/${hash}`,
         fetcher,
         {
-            revalidateOnFocus: false
+            revalidateOnFocus: false,
+            onErrorRetry: (error, key, config, revalidate, {retryCount}) => {
+                // Only retry up to 10 times.
+                if (retryCount >= 10) return
+            }
         }
     )
 
     return {
         data: data,
-        isLoading: !data && !error
+        isLoading: !data && !error,
+        isError: error
     }
 }
